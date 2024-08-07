@@ -1,0 +1,123 @@
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* puts it in middle of the screen*/
+    text-align: center;
+}
+
+.welcome-sign{
+    font-size: 3rem;
+    font-weight: bold;
+    /* color: white; */
+    text-shadow: 5px 3px 5px wheat;
+    border: 2px solid wheat;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px;
+
+}
+
+body{
+    background-image: url('../assets/pexels-julia-larson-6455928.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: 1px 2px 3px wheat;
+    padding: 10px;
+   
+}
+
+.exercises{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px;
+    padding: 20px; */
+    border: 2px solid wheat;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 25px, 0 0 25px, 0 0 25px;
+    height: auto;
+    width: auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.exercises h1{
+    color: wheat;
+    text-decoration: underline;
+    text-shadow: 1px 2px 3px wheat;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.exercises p{
+    color: wheat;
+    text-shadow: 1px 2px 3px wheat;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input{
+    margin: 5px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 20px;
+}
+
+/* .exercise-list{
+    color: wheat;
+    text-shadow: 1px 2px 3px wheat;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.exercises ul{
+    list-style-type: upper-roman;
+    color: wheat;
+    text-shadow: 1px 2px 3px wheat;
+}
+
+.exercises li{
+    color: wheat;
+    text-shadow: 1px 2px 3px wheat;
+    margin: 10px;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
